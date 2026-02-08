@@ -14,6 +14,6 @@ jobs:
         uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
         with:
           target_repo_token: ${{ secrets.GITHUB_TOKEN }}
-          upstream_repository: DataTalksClub/data-engineering-zoomcamp # <--- REEMPLAZA ESTO
-          upstream_branch: main
-          target_branch: main
+          upstream_sync_repository: DataTalksClub/data-engineering-zoomcamp # <--- REEMPLAZA ESTO
+          upstream_sync_branch: main
+          target_sync_branch: main
