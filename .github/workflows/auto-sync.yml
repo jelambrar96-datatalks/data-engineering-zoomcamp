@@ -1,0 +1,19 @@
+name: Sync Fork
+on:
+  schedule:
+    - cron: '0 0 * * *' # Automático: Cada día a medianoche
+  workflow_dispatch: # Manual: Habilita el botón "Run workflow"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout target repo
+        uses: actions/checkout@v3
+      - name: Sync upstream
+        uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
+        with:
+          target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+          upstream_repository: DataTalksClub/data-engineering-zoomcamp # <--- REEMPLAZA ESTO
+          upstream_branch: main
+          target_branch: main
