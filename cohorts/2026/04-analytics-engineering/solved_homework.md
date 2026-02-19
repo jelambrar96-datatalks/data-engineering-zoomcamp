@@ -210,9 +210,29 @@ Create a staging model for the **For-Hire Vehicle (FHV)** trip data for 2019.
 What is the count of records in `stg_fhv_tripdata`?
 
 - 42,084,899
-- 43,244,693
+- **43,244,693** (ANSWER)
 - 22,998,722
 - 44,112,187
+
+
+```sql
+SELECT 
+    YEAR(pickup_datetime) as year,
+    COUNT(1) as record_count
+FROM prod.stg_fhv_tripdata
+GROUP BY YEAR(pickup_datetime)
+ORDER BY year;
+```
+
+```plain
+┌───────┬──────────────┐
+│ year  │ record_count │
+│ int64 │    int64     │
+├───────┼──────────────┤
+│  2019 │     43244693 │
+│  2020 │     14914793 │
+└───────┴──────────────┘
+```
 
 ---
 
