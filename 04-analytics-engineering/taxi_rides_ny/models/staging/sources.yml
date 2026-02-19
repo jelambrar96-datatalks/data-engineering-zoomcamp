@@ -98,3 +98,22 @@ sources:
             description: Improvement surcharge
           - name: total_amount
             description: Total amount charged
+
+      - name: fhv_tripdata
+        description: Raw High-Volume For-Hire Vehicle (HVFHS) trip records for 2019
+        loaded_at_field: pickup_datetime
+        columns:
+          - name: dispatching_base_num
+            description: "TLC Base License Number of the base that dispatched the trip - Note: Raw data may contain nulls, filtered in staging"
+          - name: pickup_datetime
+            description: Date and time of the trip pick-up
+          - name: dropOff_datetime
+            description: Date and time of the trip drop-off
+          - name: PUlocationID
+            description: TLC Taxi Zone in which the trip began
+          - name: DOlocationID
+            description: TLC Taxi Zone in which the trip ended
+          - name: SR_Flag
+            description: "Indicates if the trip was a part of a shared ride chain (1 = shared, null = non-shared). Note: Lyft may overcount shared trips"
+          - name: Affiliated_base_number
+            description: Base number of the base with which the vehicle is affiliated
