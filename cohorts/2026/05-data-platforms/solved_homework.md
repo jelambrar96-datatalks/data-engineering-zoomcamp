@@ -126,29 +126,33 @@ We encourage everyone to share what they learned. This is called "learning in pu
 
 Read more about the benefits [here](https://alexeyondata.substack.com/p/benefits-of-learning-in-public-and).
 
-### Example post for LinkedIn
+### Example post for [Linkedin](https://www.linkedin.com/posts/jelambrar96_github-datatalksclubdata-engineering-zoomcamp-share-7432467501760020480-qtet?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAACWmcWwBQc9OQJ6mmIIAo22Xwuwa8p_gRR4).
 
 ```
-🚀 Week 5 of Data Engineering Zoomcamp by @DataTalksClub complete!
+🚀 Week 2 of Data Engineering Zoomcamp by DataTalksClub and Will Russell complete!
 
-Just finished Module 5 - Data Platforms with Bruin. Learned how to:
+Just finished Module 2 - Workflow Orchestration with Kestra. Learned how to:
 
-✅ Build end-to-end ELT pipelines with Bruin
-✅ Configure environments and connections
-✅ Use materialization strategies for incremental processing
-✅ Add data quality checks to ensure data integrity
-✅ Deploy pipelines from local to cloud (BigQuery)
+✅ Orchestrate data pipelines with Kestra flows
+✅ Use variables and expressions for dynamic workflows
+✅ Implement backfill for historical data
+✅ Schedule workflows with timezone support
+✅ Process NYC taxi data (Yellow & Green) for 2019-2021
 
-Modern data platforms in a single CLI tool - no vendor lock-in!
+Built ETL pipelines that extract, transform, and load taxi trip data automatically!
 
-Here's my homework solution: <LINK>
+Thanks to the Kestra team for the great orchestration tool!
+
+Here's my homework solution: https://lnkd.in/daF_qgCV
 
 Following along with this amazing free course - who else is learning data engineering?
 
-You can sign up here: https://github.com/DataTalksClub/data-engineering-zoomcamp/
+You can sign up here: https://lnkd.in/eg5mjkmA
+
+#DataEngineer #BigData #LearningInPublic #ContinuousLearning #DataScience #Python #dezoomcamp #kestra
 ```
 
-### Example post for Twitter/X
+### Example post for [Twitter/X](https://x.com/jelambrar/status/2026702634921476254)
 
 ```
 📊 Module 5 of Data Engineering Zoomcamp done!
@@ -158,7 +162,7 @@ You can sign up here: https://github.com/DataTalksClub/data-engineering-zoomcamp
 - Data quality & lineage
 - Deployment to BigQuery
 
-My solution: <LINK>
-
 Free course by @DataTalksClub: https://github.com/DataTalksClub/data-engineering-zoomcamp/
+
+#DataEngineer #BigData #bruin #dezoomcamp
 ```
